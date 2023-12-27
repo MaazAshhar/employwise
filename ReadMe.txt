@@ -9,7 +9,7 @@ So, just run the project it will start working.
 API Documentation
 
 <Domain> - http://localhost:8080 (while running on local server)
-<Domain> - 
+<Domain> - https://employwise-production.up.railway.app (while using hosted server)
 
 
 
