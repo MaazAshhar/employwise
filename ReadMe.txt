@@ -36,11 +36,11 @@ GetAll Employee (With pagination)
 End point - <Domain>/api/employees/getAll
 Method - GET
 Request Param - 
-pageNumber - <page-number> //Default value = 0
-pageSize - <page-size> //Default value = 5
-sortBy - <sort-by>   //Default value = employeeName
-sortDir - <sort-direction> //Default value = true
-(Here, true for ascending and false for descending)
+    pageNumber - <page-number> //Default value = 0
+    pageSize - <page-size> //Default value = 5
+    sortBy - <sort-by>   //Default value = employeeName
+    sortDir - <sort-direction> //Default value = true
+    (Here, true for ascending and false for descending)
 
 
 
@@ -75,6 +75,5 @@ Get nth level manager
 
 End point - <Domain>/api/employees/manager/{id}
 Method - GET
-
-
-
+Request Param - 
+    level - <level_of_manager> //Default value = 1
